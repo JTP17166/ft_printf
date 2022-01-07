@@ -6,18 +6,18 @@
 /*   By: joaopere <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 12:42:03 by joaopere          #+#    #+#             */
-/*   Updated: 2021/11/30 12:42:05 by joaopere         ###   ########.fr       */
+/*   Updated: 2022/01/07 22:27:08 by joaopere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-size_t    ft_strlen(char *s)
+size_t	ft_strlen(char *s)
 {
-    size_t    i;
+	size_t	i;
 
-    i = 0;
-    while (s[i] != '\0')
-    {
-        i++;
-    }
-    return (i);
-} 
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
