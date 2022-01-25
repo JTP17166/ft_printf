@@ -6,13 +6,13 @@
 /*   By: joao_pereira <joao_pereira@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 11:59:52 by joao_pereir       #+#    #+#             */
-/*   Updated: 2022/01/07 22:20:11 by joaopere         ###   ########.fr       */
+/*   Updated: 2021/12/13 12:01:19 by joao_pereir      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_p(unsigned long n)
+int ft_p(unsigned long n)
 {
-	return (ft_putstr("0x") + ft_convdechex_upper(n));
+    return (ft_putstr("0x") + ft_convdechex_upper(n));
 }

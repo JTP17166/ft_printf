@@ -6,7 +6,7 @@
 /*   By: joao_pereira <joao_pereira@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 09:55:06 by joaopere          #+#    #+#             */
-/*   Updated: 2022/01/07 22:24:33 by joaopere         ###   ########.fr       */
+/*   Updated: 2021/12/15 13:03:49 by joao_pereir      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_putstr(char *s)
 	count = 0;
 	if (!s)
 	{
-		return (write(1, "(null)", 6));
+		return(write(1, "(null)", 6));
 	}
 	while (s[i] != '\0')
 	{
@@ -29,5 +29,5 @@ int	ft_putstr(char *s)
 		i++;
 		count++;
 	}
-	return (count);
+	return(count);
 }
