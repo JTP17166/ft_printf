@@ -3,9 +3,9 @@
 
 int main()
 {
-	void *ptr;
+	int n;
 
-	ptr = "hello";
-	printf("pointer original: %p \n", ptr);
-	ft_printf("pointer teu: %p", ptr);
+	n = 12345;
+	ft_printf("pointer teu: %x\n", n);
+	printf("pointer original: %x\n", n);
 }

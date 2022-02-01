@@ -8,7 +8,8 @@ INCLUDE = ft_printf.h
 SRCS	= ft_convdechex_lower.c ft_convdechex_upper.c \
 					ft_p.c ft_putchar.c \
 					ft_putnbr.c ft_putstr.c \
-					ft_strlen.c  ft_printf.c
+					ft_strlen.c  ft_printf.c \
+					ft_convdechex_p.c ft_putnbr_u.c
 OBJS	= $(SRCS:.c=.o)
 all: 		$(NAME) clean
 $(NAME): 	$(OBJS) $(INCLUDE)

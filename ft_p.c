@@ -6,7 +6,7 @@
 /*   By: joaopere <joaopere@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/13 11:59:52 by joao_pereir       #+#    #+#             */
-/*   Updated: 2022/01/31 17:39:21 by joaopere         ###   ########.fr       */
+/*   Updated: 2022/02/01 15:39:39 by joaopere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 int ft_p(unsigned long n)
 {
-    return (ft_putstr("0x") + ft_convdechex_lower(n));
+    return (ft_putstr("0x") + ft_convdechex_p(n));
 }

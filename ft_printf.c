@@ -6,7 +6,7 @@
 /*   By: joaopere <joaopere@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 17:29:56 by joaopere          #+#    #+#             */
-/*   Updated: 2022/01/31 19:00:48 by joaopere         ###   ########.fr       */
+/*   Updated: 2022/02/01 18:55:50 by joaopere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ static int ft_arg_check(char z, va_list args)
 	}
 	else if(z == 'u')
 	{
-		return(ft_putnbr(va_arg(args, unsigned int)));
+		return(ft_putnbr_u(va_arg(args, unsigned int)));
 	}
 	else if(z == 'x')
 	{
