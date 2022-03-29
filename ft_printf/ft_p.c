@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Prints the "0x" and then adds the hexadecimal value of the pointer.
+
 #include "ft_printf.h"
 
 int	ft_p(unsigned long n)
