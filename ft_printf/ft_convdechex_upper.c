@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Converts the decimal number to hexadecimal in upper case.
+
 #include "ft_printf.h"
 
 int	ft_convdechex_upper(unsigned int n)
