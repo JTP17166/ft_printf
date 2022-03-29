@@ -9,6 +9,9 @@
 /*   Updated: 2022/02/04 12:56:23 by joaopere         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Reverses the values.
+
 #include "ft_printf.h"
 
 char	*ft_reverse(char *str)
