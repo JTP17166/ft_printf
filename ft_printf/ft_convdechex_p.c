@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Converts the pointer to hexadecimal
+
 #include "ft_printf.h"
 
 int	ft_convdechex_p(unsigned long n)
