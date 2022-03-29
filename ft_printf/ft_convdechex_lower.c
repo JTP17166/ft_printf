@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Converts the decimal number to hexadecimal in lower case.
+
 #include "ft_printf.h"
 
 int	ft_convdechex_lower(unsigned int n)
