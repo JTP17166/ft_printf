@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Writes a number unsigned (to resolve the problems with the negative numbers).
+
 #include "ft_printf.h"
 
 int	ft_putnbr_u(unsigned int n)
