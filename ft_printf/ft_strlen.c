@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// Returns the length of the string.
+
 #include "ft_printf.h"
 
 size_t	ft_strlen(char *s)
