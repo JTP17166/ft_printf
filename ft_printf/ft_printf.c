@@ -12,6 +12,8 @@
 
 #include "ft_printf.h"
 
+// Checks the choice made by the user;
+
 static int	ft_arg_check(char z, va_list args)
 {
 	if (z == 'c')
@@ -34,6 +36,8 @@ static int	ft_arg_check(char z, va_list args)
 		return (ft_putchar('%'));
 	return (0);
 }
+
+// Main function
 
 int	ft_printf(const char *format, ...)
 {
